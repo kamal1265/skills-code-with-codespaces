@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run Manual Tasks
-      run: 
-        echo "Running manual task with Param1 : ${{github.event.inputs.param1}}"
+      run: |
+        echo "Running manual task with Param1: ${{github.event.inputs.param1}}"
